@@ -21,14 +21,17 @@ for (let i = 1; i < 4; i++)
 if (num1 > num2 && num1 > num3)
 {
 	var highest = num1;
+	var school = " elementary ";
 }
 else if (num2 > num1 && num2 > num3)
 {
 	var highest = num2;
+	var school = " high school ";
 }
 else
 {
 	var highest = num3;
+	var school = " college ";
 }
 console.log("highest = " + highest);
 
@@ -105,10 +108,11 @@ min = time % 60;
 hr = (time - min) / 60;
 console.log("hour = " + hr + ", min = " + min);
 
+document.write("<hr>ELEMENTARY FRIENDS: " + num1 + "<br>HIGH SCHOOL FRIENDS: " + num2 + "<br>COLLEGE FRIENDS: " + num3);
 document.write("<hr>HIGHEST NUMBER: " + highest);
 document.write("<hr>LETTER: " + letter);
 document.write("<hr>TIME: " + hr + " HOURS " + min + " MINUTES<hr>");
 document.write('<p id="text">' + "<br><br>It's a big big big day today! My friends and I went to Tropical Serenade, a resort filled with fun and dreams by the crystal-clear beach.");
 document.write('<p id="text">' + " But the thing is... we had a MASSIVE problem. Yikes! We didn't have enough finances and efforts to manage it. On top of that, this was our very first time.");
-document.write('<p id="text">' + " For a circle of " + highest + " friends, it was definitely tough. Luckily, my friend from class " + letter + " offered help from her rich parents.");
+document.write('<p id="text">' + " For a circle of " + highest + school + " friends, it was definitely tough. Luckily, my friend from class " + letter + " offered help from her rich parents.");
 document.write('<p id="text">' + " We immediately entered the resort for " + hr + " hours and " + min + " minutes suited from travel. And yes, we indeed enjoyed our vacay!");

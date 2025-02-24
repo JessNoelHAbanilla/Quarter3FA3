@@ -1,0 +1,28 @@
+body
+{
+	background-color: #ede3d3;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 3em;
+	font-family: Monospace;
+	color: #a18862;
+	font-weight: bold;
+}
+
+#text
+{
+	font-family: Monospace;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px
+}
+
+h2
+{
+	color: #4c608c;
+	text-align: center;
+	font-family: Monospace;
+}

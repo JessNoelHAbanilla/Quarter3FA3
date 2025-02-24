@@ -18,12 +18,12 @@ for (let i = 1; i < 4; i++)
 	}
 }
 
-if (num1 > num2 && num1 > num3)
+if (num1 >= num2 && num1 >= num3)
 {
 	var highest = num1;
 	var school = " elementary ";
 }
-else if (num2 > num1 && num2 > num3)
+else if (num2 >= num1 && num2 >= num3)
 {
 	var highest = num2;
 	var school = " high school ";
@@ -33,6 +33,7 @@ else
 	var highest = num3;
 	var school = " college ";
 }
+
 console.log("highest = " + highest);
 
 switch(num1)
